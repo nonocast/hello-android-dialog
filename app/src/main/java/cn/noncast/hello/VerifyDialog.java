@@ -24,7 +24,6 @@ public class VerifyDialog extends DialogFragment implements DialogInterface {
   public Dialog onCreateDialog(Bundle savedInstanceState) {
     final Dialog dialog = new Dialog(getActivity());
     dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-//    dialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
     View view = View.inflate(this.getContext(), R.layout.dialog_verify, null);
     dialog.setContentView(view);
 

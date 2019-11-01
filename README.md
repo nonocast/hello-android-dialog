@@ -45,8 +45,8 @@ dialog_verify.xml
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:minWidth="480dp"
     android:minHeight="300dp"
-    android:layout_width="480dp"
-    android:layout_height="300dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:layout_gravity="center"
     android:padding="40dp"
     android:orientation="horizontal">
